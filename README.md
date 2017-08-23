@@ -13,10 +13,9 @@ FillDEM supports floating-point GeoTIFF file format through the GDAL library. Pl
 
 The algorithms described in the manuscript can be run using the following command line:
 
-FillDEM Input_DEM Output_DEM
+fill Input_DEM Output_DEM
 
-Example: FillDEM dem.tif. dem_filled.tif Use the algorithm proposed in the manuscript to fill the input DEM "dem.tif" and create a filled DEM "dem_filled.tif".
+Example: fill dem.tif. dem_filled.tif 
+<p>Use the algorithm proposed in the manuscript to fill the input DEM "dem.tif" and create a filled DEM "dem_filled.tif".</p>
 
-The algorithms based on the Zhou's variant.Zhou's manuscript can be downloaded at:******.
-
-The test data used in the manuscript can be downloaded at http://www.mngeo.state.mn.us/. You need ArcGIS to convert the DEM into GeoTIFF format
+The test data used in the manuscript can be downloaded at http://www.mngeo.state.mn.us/. You need ArcGIS to convert the DEM into GeoTIFF format.
